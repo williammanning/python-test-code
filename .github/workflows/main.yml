@@ -1,7 +1,5 @@
 name: Build-publish-scan
-on:
-    push:
-        branches:
+on: workflow_dispatch
 
 permissions:
   actions: read # for detecting the Github Actions environment.
